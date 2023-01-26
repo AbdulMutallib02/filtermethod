@@ -12,13 +12,14 @@ const Category = () => {
     }
   return (
     <>
-      <h1 className="text-center text-info">Let's Shop</h1>
+      <h1 className="text-center text-info mt-3">Let's Shop</h1>
       <div className="container-fluid mx-2">
         <div className="row mt-5 mx-2">
           <div className="col-md-3">
             <button className="btn btn-warning w-100 mb-4"onClick={()=>filterResult("men")}>Men</button>
             <button className="btn btn-warning w-100 mb-4"onClick={()=>filterResult("women")}>Women</button>
             <button className="btn btn-warning w-100 mb-4"onClick={()=>filterResult("children")}>Children</button>
+            <button className="btn btn-warning w-100 mb-4"onClick={()=>filterResult("shoes")}>Shoes</button>
             <button className="btn btn-warning w-100 mb-4" onClick={()=>setData(Categories)} >All</button>
           </div>
 
